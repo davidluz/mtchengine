@@ -1,4 +1,4 @@
-//====MTC Engine v1 - Maio 2016===
+//====MTC Engine v0.0.1 - Maio 2016===
 
 
 //init
@@ -18,7 +18,10 @@ var Context = function (){
 Context.prototype.viewLog = function(){
 	console.log("MTC V1 - 2016-05-15 - About this Project");
 	console.log("...");
+	console.time('someFunction');
+	console.timeEnd('end');
 }
+
 
 Context.prototype.sampleStimulus = function(){
 
